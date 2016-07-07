@@ -10,8 +10,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <title>Maratha Matrimonial Website</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Marital Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<meta name="keywords" content="" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="css/bootstrap-3.1.1.min.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -89,7 +88,7 @@ $(document).ready(function(){
 		            </li>
 					-->
 					<li><a href="about.php">Search</a></li>
-					<li><a href="about.php">Register</a></li>
+					<li><a href="enroll.php">Register</a></li>
 					<li class="dropdown">
 		              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Candidate<span class="caret"></span></a>
 		              <ul class="dropdown-menu" role="menu">
@@ -149,46 +148,209 @@ $(document).ready(function(){
 				</select>
 		   </div>
 	    </div>
+
         <div class="inline-block">
-		  <label class="gender_1">Located In :</label>
+		  <label class="gender_1">Age :</label>
 			<div class="age_box1" style="max-width: 100%; display: inline-block;">
 				<select>
-					<option value="">* Select City</option>
-					<option value="Mumbai">Mumbai</option>
-					<option value="Pune">Pune</option>
-					<option value="Nagpur">Nagpur</option>
+					<option value="">* From</option>
+					<option value="18">18</option>
+					<option value="19">19</option>
+					<option value="20">20</option>
+					<option value="21">21</option>
+					<option value="22">22</option>
+					<option value="23">23</option>
+					<option value="24">24</option>
+					<option value="25">25</option>
+					<option value="26">26</option>
+					<option value="27">27</option>
+					<option value="28">28</option>
+					<option value="29">29</option>
+					<option value="30">30</option>
+					<option value="31">31</option>
+					<option value="32">32</option>
+					<option value="33">33</option>
+					<option value="34">34</option>
+					<option value="35">35</option>
+					<option value="36">36</option>
+					<option value="37">37</option>
+					<option value="38">38</option>
+					<option value="39">39</option>
+					<option value="40">40</option>
+				</select>
+			</div>
+
+			<div class="age_box1" style="max-width: 100%; display: inline-block;">
+				<select>
+					<option value="">* To</option>
+					<option value="18">18</option>
+					<option value="19">19</option>
+					<option value="20">20</option>
+					<option value="21">21</option>
+					<option value="22">22</option>
+					<option value="23">23</option>
+					<option value="24">24</option>
+					<option value="25">25</option>
+					<option value="26">26</option>
+					<option value="27">27</option>
+					<option value="28">28</option>
+					<option value="29">29</option>
+					<option value="30">30</option>
+					<option value="31">31</option>
+					<option value="32">32</option>
+					<option value="33">33</option>
+					<option value="34">34</option>
+					<option value="35">35</option>
+					<option value="36">36</option>
+					<option value="37">37</option>
+					<option value="38">38</option>
+					<option value="39">39</option>
+					<option value="40">40</option>
 				</select>
           </div>
         </div>
-        <div class="inline-block">
-		  <label class="gender_1">Native Place :</label>
-			<div class="age_box1" style="max-width: 100%; display: inline-block;">
-				<select><option value="">* Select City</option>
-					<option value="Mumbai">Mumbai</option>
-					<option value="Pune">Pune</option>
-					<option value="Nagpur">Nagpur</option>
-               </select>
-          </div>
-       </div>
-     </div>
-	 <div class="inline-block">
-	   <div class="age_box2" style="max-width: 220px;">
-	   	<label class="gender_1">Age :</label>
-	    <input class="transparent" placeholder="From:" style="width: 34%;" type="text" value="">&nbsp;-&nbsp;<input class="transparent" placeholder="To:" style="width: 34%;" type="text" value="">
-	   </div>
-	 </div>
-       <div class="inline-block">
-		  <label class="gender_1">Status :</label>
+
+<div class="inline-block">
+		  <label class="gender_1">Height :</label>
 			<div class="age_box1" style="max-width: 100%; display: inline-block;">
 				<select>
-					<option value="">* Select Status</option>
-					<option value="Single">Single</option>
-					<option value="Married">Married</option>
-					<option value="In a Relationship">In a Relationship</option>
-					<option value="It's Complicated">It's Complicated</option>
+					<option value="">* From</option>
+					<option value="4.00">4'00"</option>
+					<option value="4.01">4'01"</option>
+					<option value="4.02">4'02"</option>
+					<option value="4.03">4'03"</option>
+					<option value="4.04">4'04"</option>
+					<option value="4.05">4'05"</option>
+					<option value="4.06">4'06"</option>
+					<option value="4.07">4'07"</option>
+					<option value="4.08">4'08"</option>
+					<option value="4.09">4'09"</option>
+					<option value="4.10">4'10"</option>
+					<option value="4.11">4'11"</option>
+					<option value="4.12">4'12"</option>
+					<option value="5.00">5'00"</option>
+					<option value="5.01">5'01"</option>
+					<option value="5.02">5'02"</option>
+					<option value="5.03">5'03"</option>
+					<option value="5.04">5'04"</option>
+					<option value="5.05">5'05"</option>
+					<option value="5.06">5'06"</option>
+					<option value="5.07">5'07"</option>
+					<option value="5.08">5'08"</option>
+					<option value="5.09">5'09"</option>
+					<option value="5.10">5'10"</option>
+					<option value="5.11">5'11"</option>
+					<option value="5.12">5'12"</option>
+					<option value="6.00">6'00"</option>
+					<option value="6.01">6'01"</option>
+					<option value="6.02">6'02"</option>
+					<option value="6.03">6'03"</option>
+					<option value="6.04">6'04"</option>
+					<option value="6.05">6'05"</option>
+					<option value="6.06">6'06"</option>
+					<option value="6.07">6'07"</option>
+					<option value="6.08">6'08"</option>
+					<option value="6.09">6'09"</option>
+					<option value="6.10">6'10"</option>
+					<option value="6.11">6'11"</option>
+					<option value="6.12">6'12"</option>
+					<option value="7.00">7'00"</option>
+				</select>
+			</div>
+
+			<div class="age_box1" style="max-width: 100%; display: inline-block;">
+				<select>
+					<option value="">* To</option>
+					<option value="4.00">4'00"</option>
+					<option value="4.01">4'01"</option>
+					<option value="4.02">4'02"</option>
+					<option value="4.03">4'03"</option>
+					<option value="4.04">4'04"</option>
+					<option value="4.05">4'05"</option>
+					<option value="4.06">4'06"</option>
+					<option value="4.07">4'07"</option>
+					<option value="4.08">4'08"</option>
+					<option value="4.09">4'09"</option>
+					<option value="4.10">4'10"</option>
+					<option value="4.11">4'11"</option>
+					<option value="4.12">4'12"</option>
+					<option value="5.00">5'00"</option>
+					<option value="5.01">5'01"</option>
+					<option value="5.02">5'02"</option>
+					<option value="5.03">5'03"</option>
+					<option value="5.04">5'04"</option>
+					<option value="5.05">5'05"</option>
+					<option value="5.06">5'06"</option>
+					<option value="5.07">5'07"</option>
+					<option value="5.08">5'08"</option>
+					<option value="5.09">5'09"</option>
+					<option value="5.10">5'10"</option>
+					<option value="5.11">5'11"</option>
+					<option value="5.12">5'12"</option>
+					<option value="6.00">6'00"</option>
+					<option value="6.01">6'01"</option>
+					<option value="6.02">6'02"</option>
+					<option value="6.03">6'03"</option>
+					<option value="6.04">6'04"</option>
+					<option value="6.05">6'05"</option>
+					<option value="6.06">6'06"</option>
+					<option value="6.07">6'07"</option>
+					<option value="6.08">6'08"</option>
+					<option value="6.09">6'09"</option>
+					<option value="6.10">6'10"</option>
+					<option value="6.11">6'11"</option>
+					<option value="6.12">6'12"</option>
+					<option value="7.00">7'00"</option>
+				</select>
+          </div>
+        </div>
+     </div>
+
+	 <div class="inline-block">
+	   <div class="age_box2" style="max-width: 220px;">
+	   	<label class="gender_1">Mangalic  :</label>
+	   	<input type="checkbox" value="Mangalic">
+	    <!-- <input class="transparent" placeholder="From:" style="width: 34%;" type="text" value="">&nbsp;-&nbsp;<input class="transparent" placeholder="To:" style="width: 34%;" type="text" value=""> -->
+	   </div>
+	 </div>
+
+       <div class="inline-block">
+		  <label class="gender_1">Education :</label>
+			<div class="age_box1" style="max-width: 100%; display: inline-block;">
+				<select>
+					<option value="">Not Specific</option>
+					<option value="graduate">Graduate</option>
+					<option value="postgraduate">Post Graduate</option>
+					<option value="doctor">Doctor</option>
+					<option value="engineer">Engineer</option>
 				</select>
 		  </div>
 	    </div>
+
+       <div class="inline-block">
+		  <label class="gender_1">Occupation Place :</label>
+			<div class="age_box1" style="max-width: 100%; display: inline-block;">
+				<select>
+					<option value="">Not Specific</option>
+					<option value="mumbai">Mumbai</option>
+					<option value="pune">Pune</option>
+					<option value="nashik">Nashik</option>
+				</select>
+		  </div>
+	    </div>
+
+       <div class="inline-block">
+		  <label class="gender_1">Native Place :</label>
+			<div class="age_box1" style="max-width: 100%; display: inline-block;">
+				<select>
+					<option value="">Not Specific</option>
+					<option value="mumbai">Mumbai</option>
+					<option value="pune">Pune</option>
+					<option value="nashik">Nashik</option>
+				</select>
+		  </div>
+	    </div>
+
 		<div class="submit inline-block">
 		   <input id="submit-btn" class="hvr-wobble-vertical" type="submit" value="Find Matches">
 		</div>
