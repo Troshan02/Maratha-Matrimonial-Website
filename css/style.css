@@ -379,7 +379,8 @@ ul.nav_1 li.last{
     -webkit-transition: 0.3s;
     transition: 0.3s;
     background-color: #fff;
-    border: none;
+    /*border: none;*/
+    border: 1px solid #CCC;
     font-size: 12px;
     padding:5px;
     width: 100%;

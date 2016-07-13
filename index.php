@@ -141,7 +141,7 @@ $(document).ready(function(){
 		 <div class="inline-block">
 		  <label class="gender_1">I am looking for :</label>
 			<div class="age_box1" style="max-width: 100%; display: inline-block;">
-				<select>
+				<select name="sel-gen">
 					<option value="">* Select Gender</option>
 					<option value="Male">Male</option>
 					<option value="Female">Female</option>
@@ -152,7 +152,7 @@ $(document).ready(function(){
         <div class="inline-block">
 		  <label class="gender_1">Age :</label>
 			<div class="age_box1" style="max-width: 100%; display: inline-block;">
-				<select>
+				<select name="sel-agef">
 					<option value="">* From</option>
 					<option value="18">18</option>
 					<option value="19">19</option>
@@ -181,7 +181,7 @@ $(document).ready(function(){
 			</div>
 
 			<div class="age_box1" style="max-width: 100%; display: inline-block;">
-				<select>
+				<select name="sel-aget">
 					<option value="">* To</option>
 					<option value="18">18</option>
 					<option value="19">19</option>
@@ -213,7 +213,7 @@ $(document).ready(function(){
 <div class="inline-block">
 		  <label class="gender_1">Height :</label>
 			<div class="age_box1" style="max-width: 100%; display: inline-block;">
-				<select>
+				<select name="sel-heightf">
 					<option value="">* From</option>
 					<option value="4.00">4'00"</option>
 					<option value="4.01">4'01"</option>
@@ -259,7 +259,7 @@ $(document).ready(function(){
 			</div>
 
 			<div class="age_box1" style="max-width: 100%; display: inline-block;">
-				<select>
+				<select name="sel-heightf">
 					<option value="">* To</option>
 					<option value="4.00">4'00"</option>
 					<option value="4.01">4'01"</option>
@@ -309,7 +309,7 @@ $(document).ready(function(){
 	 <div class="inline-block">
 	   <div class="age_box2" style="max-width: 220px;">
 	   	<label class="gender_1">Mangalic  :</label>
-	   	<input type="checkbox" value="Mangalic">
+	   	<input type="checkbox" name="mangalic" value="Mangalic">
 	    <!-- <input class="transparent" placeholder="From:" style="width: 34%;" type="text" value="">&nbsp;-&nbsp;<input class="transparent" placeholder="To:" style="width: 34%;" type="text" value=""> -->
 	   </div>
 	 </div>
@@ -317,7 +317,7 @@ $(document).ready(function(){
        <div class="inline-block">
 		  <label class="gender_1">Education :</label>
 			<div class="age_box1" style="max-width: 100%; display: inline-block;">
-				<select>
+				<select name="sel-edu">
 					<option value="">Not Specific</option>
 					<option value="graduate">Graduate</option>
 					<option value="postgraduate">Post Graduate</option>
@@ -330,7 +330,7 @@ $(document).ready(function(){
        <div class="inline-block">
 		  <label class="gender_1">Occupation Place :</label>
 			<div class="age_box1" style="max-width: 100%; display: inline-block;">
-				<select>
+				<select name="sel-occu">
 					<option value="">Not Specific</option>
 					<option value="mumbai">Mumbai</option>
 					<option value="pune">Pune</option>
@@ -342,7 +342,7 @@ $(document).ready(function(){
        <div class="inline-block">
 		  <label class="gender_1">Native Place :</label>
 			<div class="age_box1" style="max-width: 100%; display: inline-block;">
-				<select>
+				<select name="sel-native">
 					<option value="">Not Specific</option>
 					<option value="mumbai">Mumbai</option>
 					<option value="pune">Pune</option>
