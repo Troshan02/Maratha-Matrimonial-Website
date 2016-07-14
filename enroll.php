@@ -194,12 +194,12 @@ $(document).ready(function(){
 
 	    	<span >Sub cast </span>
 	    	<select name="subcast" style="width:200px;">
-					<option value="Deshmukh">Deshmukh</option>
-					<option value="96 Kuli" selected="selected">96 Kuli</option>
 					<option value="Maratha">Maratha</option>
-					<option value="kunbi" >kunbi</option>
-					<option value="Deshmukh Maratha">Deshmukh Maratha</option>
+					<option value="96 Kuli">96 Kuli</option>
 					<option value="96 Kuli Maratha">96 Kuli Maratha</option>
+					<option value="Deshmukh">Deshmukh</option>
+					<option value="Deshmukh Maratha">Deshmukh Maratha</option>
+					<option value="Kunbi" >Kunbi</option>
 					<option value="Tirale kunbi">Tirale kunbi</option>
 				</select>
 
@@ -534,6 +534,215 @@ $(document).ready(function(){
 
 				<span>Gotra / Devak</span>
 				<input name="goatra" type="text" value=""  style="width:180px;" size="50" maxlength="50" />
+			</div></br></br>
+
+			<div><span>Educational / Professional Details </span></div>
+			<div>
+				<span>Education Area</span>
+				<select name="educ" style="width:150px;">
+				  <option value="graduate" >12th to Graduate</option>
+				  <option value="postgrad" >Post - Graduate</option>
+				  <option value="doctor" >Doctor</option>
+				  <option value="engineer" >Engineer</option>
+				  <option value="Other" >Other</option>
+				</select>
+
+				<span >Occupation</span>
+				<input name="occupation" type="text" value="" maxlength="75" />
+				
+				<span >Occupation City</span>
+				<select name="occucity" style="width:150px;">
+				  <option value="Mumbai" >Mumbai</option>
+				  <option value="Navi Mumbai" >Navi Mumbai</option>
+				  <option value="Thane" >Thane</option>
+				  <option value="Other" >Other</option>
+				</select>
+
+				<span>Income</span>
+				<select name="income" style="width:150px; ">
+				  <option value="1,20,000" >1,20,000</option>
+				  <option value="2,00,000" >2,00,000</option>
+				  <option value="3,00,000" >3,00,000</option>
+				  <option value="4,00,000" >4,00,000</option>
+				  <option value="5,00,000" >5,00,000+</option>
+				</select>
+				<span>PA</span>
+			</div></br></br>
+
+			<div><span>Address</span></div>
+			<div>
+				<span style="vertical-align:top;">Residence Address</span>
+				<textarea name="address1" style="resize:none;" ></textarea>
+
+				<span style="vertical-align:top;">Email Id</span>
+				<input name="email" type="text" value="" size="30" maxlength="50" style="width:180px; vertical-align:top;" />
+
+				<span style="vertical-align:top;">Mobile</span>
+				<input name="phone" type="text" value="" style="width:180px; vertical-align:top;" />
+			</div></br></br>
+
+			<div><span>Family Background </span></div>
+			<div>
+				<span>Father </span>
+				<select name="father" style="width:60px; dispaly: inline-block;">
+				  <option value="Yes" selected="selected">Yes</option>
+				  <option value="No" >No</option>
+				</select>
+
+				<span>Mother </span>
+				<select name="father" style="width:60px; dispaly: inline-block;">
+				  <option value="Yes" selected="selected">Yes</option>
+				  <option value="No" >No</option>
+				</select>
+
+				<span>Brothers </span>
+				<select name="brother" style="width:50px; dispaly: inline-block;">
+					<option value="0"  >0</option>
+					<option value="1"  >1</option>
+					<option value="2"  >2</option>
+					<option value="3"  >3</option>
+					<option value="4"  >4</option>
+					<option value="5"  >5</option>
+					<option value="6"  >6</option>
+					<option value="7"  >7</option>
+					<option value="8"  >8</option>
+					<option value="9"  >9</option>
+					<option value="10" >10</option>
+				</select>
+
+				<span>Sisters </span>
+				<select name="sisters" style="width:50px; dispaly: inline-block;">
+					<option value="0"  >0</option>
+					<option value="1"  >1</option>
+					<option value="2"  >2</option>
+					<option value="3"  >3</option>
+					<option value="4"  >4</option>
+					<option value="5"  >5</option>
+					<option value="6"  >6</option>
+					<option value="7"  >7</option>
+					<option value="8"  >8</option>
+					<option value="9"  >9</option>
+					<option value="10" >10</option>
+				</select>
+
+				<span>Married Brothers </span>
+				<select name="brother" style="width:50px; dispaly: inline-block;">
+					<option value="0"  >0</option>
+					<option value="1"  >1</option>
+					<option value="2"  >2</option>
+					<option value="3"  >3</option>
+					<option value="4"  >4</option>
+					<option value="5"  >5</option>
+					<option value="6"  >6</option>
+					<option value="7"  >7</option>
+					<option value="8"  >8</option>
+					<option value="9"  >9</option>
+					<option value="10" >10</option>
+				</select>
+
+				<span>Married Sisters </span>
+				<select name="sisters" style="width:50px; dispaly: inline-block;">
+					<option value="0"  >0</option>
+					<option value="1"  >1</option>
+					<option value="2"  >2</option>
+					<option value="3"  >3</option>
+					<option value="4"  >4</option>
+					<option value="5"  >5</option>
+					<option value="6"  >6</option>
+					<option value="7"  >7</option>
+					<option value="8"  >8</option>
+					<option value="9"  >9</option>
+					<option value="10" >10</option>
+				</select>
+
+<!-- 				<span style="vertical-align:top;">Surnames of Relatives</span>
+				<textarea name="srelative" style="resize:none;" ></textarea> -->
+
+			</div></br></br>
+
+			<div><span>Expectation</span></div>
+			<div>
+				<span>Preferred cities </span>
+				<input name="prefcity" type="text" value="" size="30" maxlength="100" />
+
+				<span>Mangal</span>
+				<select name="emangal" style="width:100px; dispaly: inline-block;">
+				  <option value="Yes" >Yes</option>
+				  <option value="No" selected="selected">No</option>
+				  <option value="Saumya" >Saumya</option>
+				  <option value="Nirdosh" >Nirdosh</option>
+				  <option value="Not Known" >Not Known</option>
+				</select>
+
+	    	<span >Expected Caste </span>
+	    	<select name="esubcast" style="width:200px;">
+					<option value="Maratha">Maratha</option>
+					<option value="96 Kuli">96 Kuli</option>
+					<option value="96 Kuli Maratha">96 Kuli Maratha</option>
+					<option value="Deshmukh">Deshmukh</option>
+					<option value="Deshmukh Maratha">Deshmukh Maratha</option>
+					<option value="Kunbi" >Kunbi</option>
+					<option value="Tirale Kunbi">Tirale Kunbi</option>
+					<option value="Doesnt Matter">Doesn't Matter</option>
+				</select>
+			</div>
+
+			<div>	
+				<span>Education</span>
+				<input name="eeducation" type="text" value="" size="30" maxlength="100" />
+
+				<span>Expected Min Height </span>
+	    	<select name="eft" style="width:50px; dispaly: inline-block">
+					<option value="4" >4</option>
+					<option value="5" selected="selected">5</option>
+					<option value="6" >6</option>
+					<option value="7" >7</option>
+				</select>
+				'
+				<select name="einch" style="width:50px; dispaly: inline-block;">
+					<option value="0"  >0</option>
+					<option value="1"  >1</option>
+					<option value="2"  >2</option>
+					<option value="3"  >3</option>
+					<option value="4"  >4</option>
+					<option value="5"  >5</option>
+					<option value="6"  >6</option>
+					<option value="7"  >7</option>
+					<option value="8"  >8</option>
+					<option value="9"  >9</option>
+					<option value="10"  >10</option>
+					<option value="11"  >11</option>
+					<option value="12"  >12</option>
+				</select>
+				+
+
+				<span>Max Age Difference </span>
+				<select name="eage" style="width:50px; dispaly: inline-block;">
+					<option value="0"  >0</option>
+					<option value="1"  >1</option>
+					<option value="2"  >2</option>
+					<option value="3"  >3</option>
+					<option value="4"  >4</option>
+					<option value="5"  >5</option>
+					<option value="6"  >6</option>
+					<option value="7"  >7</option>
+					<option value="8"  >8</option>
+					<option value="9"  >9</option>
+					<option value="10"  >10</option>
+				</select>
+
+				<span>Divorcee</span>
+				<input name="divorce" type="radio" value="Yes" />Yes
+				<input name="divorce" type="radio" value="No" checked="checked" />No
+			</div>
+
+			<div>
+				<span>Upload your profile picture :</span>
+				<input type="file" name="photoimg" id="photoimg" style="display: inline-block;"/>
+			</div>
+
+			<div>
+				<input type="button" name="Submit" value="Submit" />
 			</div>
 
    <div class="about">
